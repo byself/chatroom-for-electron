@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="assets/css/chat.css" type="text/css" />
+</head>
+<body>
+    <header class="login-header">
+        <img src="assets/imgs/login.jpeg" alt="">
+    </header>
+
+    <main class="login-form">
+        <div class="form-item">
+            <label for="">用户名：</label><br/>
+            <input id="userName" type="text" autofocus placeholder="用户名" value="" />
+        </div>
+        <div class="form-item">
+            <label for="">密码：</label><br/>
+            <input id="userPwd" type="password" placeholder="密码" value="" />
+        </div>
+        <div class="form-foot">
+            <button class="btn-login" id="btnLogin">登录</button>
+        </div>
+    </main>
+
+<script>
+    require("./login.js")
+</script>
+
+</body>
+</html>

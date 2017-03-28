@@ -1,0 +1,24 @@
+{
+  "name": "electron_chatroom",
+  "version": "1.0.0",
+  "description": "This is a charroom based on electon and socket.io.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byself/chatroom-for-electron.git"
+  },
+  "keywords": [
+    "electron",
+    "chatroom",
+    "socket.io"
+  ],
+  "author": "wangzili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byself/chatroom-for-electron/issues"
+  },
+  "homepage": "https://github.com/byself/chatroom-for-electron#readme"
+}
